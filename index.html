@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Sign-up form</title>
+</head>
+<body>
+<main>
+    <section id="logo">
+        <h1>FORM</h1>
+
+    </section>
+    <section id="form">
+        
+            <h2>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. <br>Sign up <i>now</i> to get started.<br><br>You <i>know</i> you want to.</h2>
+        
+        <form action="./index.html" method="post" id="myForm">
+            <fieldset>
+                <p>Let's sign up!</p>
+
+                <div class="form-row">
+                    <div class="input-wrapper" id="first-row">
+                        <label for="first-name">First name:</label>
+                        <input type="text" id="first-name" name="first-name" placeholder="John">
+                    </div>
+
+                    <div class="input-wrapper">
+                        <label for="last-name">Last name:</label>
+                        <input type="text" id="last-name" name="last-name" placeholder="Doe">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="input-wrapper" id="first-row">
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email" placeholder="Johndoe@mail.com">
+                    </div>
+                    <div class="input-wrapper">
+                        <label for="phone">Phone number:</label>
+                        <input type="tel" id="phone" name="phone" placeholder="123-456-789">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="input-wrapper" id="first-row">
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" name="password">
+                    </div>
+                    <div class="input-wrapper">
+                        <label for="password2">Confirm password:</label>
+                        <input type="password" id="password2" name="password2">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <button type="submit" id="submit-button">Create Account</button>
+                </div>
+                
+            </fieldset>
+        </form>
+
+        <h3>Already have an account? <a href="/">Log in</a></h3>
+
+    </section>
+</main>
+
+    <script defer src="javascript.js"></script>
+</body>
+</html>
