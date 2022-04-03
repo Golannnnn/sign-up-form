@@ -132,3 +132,123 @@ button:hover {
 
     border: 2px solid var(--theme-color);
 }
+
+ /* media queries breakpoints */
+ @media only screen and (max-width: 700px) {
+    main {
+        height: 100%;
+
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "main"
+        "content";
+    }
+
+    form { font-size: 1rem; }
+
+    section h2,
+    h3 {
+        padding: 15px;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    fieldset p {
+        padding-left: 0px;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .input-wrapper { padding-left: 0px; }
+
+    .form-row {
+        display: flex;
+        justify-content: center;
+    }
+
+    #first-row { padding-right: 0px; }
+
+    label, input { max-width: 350px; }
+
+    button[type=submit] { 
+        margin: 20px 0px 20px 0px;
+        font-size: 1rem; 
+    }
+ }
+
+ @media only screen and (min-width: 700px) {
+    form { font-size: 1rem; }
+
+    section h2, h3 { font-size: 1.2rem; }
+
+    fieldset p {
+        padding-left: 16px;
+
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+
+    label, input { max-width: 350px; }
+
+    button[type=submit] { font-size: 1rem; }
+
+    #first-row { padding-right: 10px; }
+ }
+ 
+ @media only screen and (min-width: 768px) {
+    form { font-size: 1rem; }
+
+    section h2, h3 { font-size: 1.5rem; }
+
+    fieldset p {
+        padding-left: 16px;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    #first-row { padding-right: 20px; }
+
+    label, input { max-width: 350px; }
+
+    button[type=submit] { font-size: 1rem; }
+ }
+ 
+ @media only screen and (min-width: 992px) {
+    form { font-size: 1rem; }
+
+    section h2, h3 { font-size: 1.5rem; }
+
+    fieldset p {
+        padding-left: 16px;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    #first-row { padding-right: 60px; }
+
+    label, input { max-width: 350px; }
+
+    button[type=submit] { font-size: 1rem; }
+ }
+ 
+ @media only screen and (min-width: 1200px) {
+    form { font-size: 1rem; }
+
+    section h2 { 
+        width: 70%; 
+        font-size: 1.7rem;
+    }
+
+    fieldset p {
+        padding-left: 16px;
+        font-size: 1.7rem;
+        font-weight: bold;
+    }
+
+    #first-row { padding-right: 80px; }
+
+    label, input { max-width: 350px; }
+
+    button[type=submit] { font-size: 1rem; }
+ }
