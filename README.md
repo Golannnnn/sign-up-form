@@ -12,6 +12,7 @@ What I learned, used and improved:
   - positioning
   - pseudo-classes
   - css grid
+  - importing custom fonts
 - Javascript
   - very basic form validation
 - Git
