@@ -151,6 +151,25 @@ input:focus {
     border: 1px solid rgb(4, 0, 255);
     box-shadow: 4px 4px 10px 0px rgba(0,0,0,0.4);
 }
+
+.input-wrapper { padding-left: 1rem; }
+
+.input-wrapper input:focus { outline: 0px; }
+
+/* .succes and .error interacts with the javascript */
+.input-wrapper.success input { border-color: #09c372; }
+
+.input-wrapper.error input { border-color: #ff3860; }
+
+.input-wrapper .error {
+    height: 13px;
+
+    color: #ff3860;
+
+    margin-bottom: 18px;
+
+    font-size: 1rem;
+}
   
 button[type=submit] {
     background-color: var(--theme-color);
