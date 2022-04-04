@@ -209,6 +209,17 @@ button:hover {
         "main"
         "content";
     }
+     
+    #logo h1 { font-size: 2.5rem; }
+
+    .icon {
+        top: 25px;
+        left: -7px;
+        width: 75px;
+        height: 75px;
+    }
+
+    #logo div { font-size: 0.6rem; }
 
     form { font-size: 1rem; }
 
@@ -243,6 +254,18 @@ button:hover {
  }
 
  @media only screen and (min-width: 700px) {
+     
+    #logo h1 { font-size: 2.5rem; }
+
+    .icon {
+        top: 25px;
+        left: -7px;
+        width: 75px;
+        height: 75px;
+    }
+
+    #logo div { font-size: 0.6rem; }
+     
     form { font-size: 1rem; }
 
     section h2, h3 { font-size: 1.2rem; }
@@ -262,6 +285,18 @@ button:hover {
  }
  
  @media only screen and (min-width: 768px) {
+     
+    #logo h1 { font-size: 3.5rem; }
+
+    .icon {
+        top: 25px;
+        left: -7px;
+        width: 90px;
+        height: 90px;
+    }
+
+    #logo div { font-size: 0.8rem; }
+     
     form { font-size: 1rem; }
 
     section h2, h3 { font-size: 1.3rem; }
@@ -280,6 +315,18 @@ button:hover {
  }
  
  @media only screen and (min-width: 992px) {
+     
+    #logo h1 { font-size: 3.5rem; }
+
+    .icon {
+        top: 25px;
+        left: -7px;
+        width: 90px;
+        height: 90px;
+    }
+
+    #logo div { font-size: 0.8rem; }
+     
     form { font-size: 1rem; }
 
     section h2, h3 { font-size: 1.3rem; }
@@ -298,6 +345,18 @@ button:hover {
  }
  
  @media only screen and (min-width: 1200px) {
+     
+    #logo h1 { font-size: 3.5rem; }
+
+    .icon {
+        top: 25px;
+        left: -7px;
+        width: 90px;
+        height: 90px;
+    }
+
+    #logo div { font-size: 0.8rem; }
+     
     form { font-size: 1rem; }
 
     section h2,
