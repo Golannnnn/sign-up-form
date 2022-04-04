@@ -1,3 +1,17 @@
+@font-face {
+    font-family: 'earth';
+    src: url('./fonts/earthorbiterbold-vzd9-webfont.woff2') format('woff2'),
+         url('./fonts/earthorbiterbold-vzd9-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --main-font-family: sans-serif;
+    --logo-font-family: 'earth';
+    --theme-color: rgb(28, 141, 53);
+}
+
 *,
 *:before,
 *:after { box-sizing: border-box; }
@@ -18,6 +32,8 @@ main {
     grid-template-columns: 1fr 2fr;
     grid-template-areas:
     "main content";
+
+    font-family: var(--main-font-family);
 }
 
 /* left side of the page */
@@ -25,6 +41,10 @@ main {
     height: 100%;
 
     grid-area: main;
+    background: url(./images/margot-richard-NJJ7paSBO-c-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; 
     
     display: flex;
     flex-direction: column;
@@ -37,9 +57,30 @@ main {
     background-color: rgb(27, 25, 25, 0.6);
     color: azure;
 
+    font-family: var(--logo-font-family);
     font-size: 3.5rem;
     font-weight: bold;
     text-align: center;
+}
+
+#logo div {
+    padding: 10px 10px 10px 10px;
+
+    color: azure;
+
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+#logo a, a:hover, a:focus, a:active { color: inherit; }
+
+.icon {
+    position: relative;
+    top: 25px;
+    left: -7px;
+    width: 90px;
+    height: 90px;
 }
 
 /* right side of the page */
