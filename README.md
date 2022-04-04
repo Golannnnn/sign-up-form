@@ -11,6 +11,7 @@ What I learned, used and improved:
   - media queries
   - positioning
   - pseudo-classes
+  - css grid
 - Javascript
   - very basic form validation
 - Git
